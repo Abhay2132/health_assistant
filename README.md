@@ -14,19 +14,19 @@ This is a Streamlit application that uses machine learning models to predict thr
 2. **Clone the repository:**
 
    ```bash
-   git clone [invalid URL removed]
+   git clone https://github.com/Abhay2132/health_assistant
    ```
 
 3. **Navigate to the project directory:**
 
    ```bash
-   cd health-assistant
+   cd health_assistant
    ```
 
 4. **Run the application:**
 
    ```bash
-   streamlit run main.py
+   streamlit run app.py
    ```
 
 ## Usage
@@ -37,7 +37,7 @@ The application has a sidebar for navigation. Select the disease you want to pre
 
 ```
 health-assistant/
-├── main.py        # The main script of the application
+├── appx.py        # The main script of the application
 ├── saved_models/  # Directory containing the saved models
 │   ├── diabetes_model.sav
 │   ├── heart_disease_model.sav
@@ -58,6 +58,3 @@ This application can be deployed to a cloud platform like Heroku or AWS for wide
 ## Disclaimer
 
 This application is for informational purposes only and should not be used as a substitute for professional medical advice. Always consult with a healthcare professional for diagnosis and treatment.
-```
-
-Please note that you will need to replace `your-username/health-assistant.git` with the actual URL of your Git repository. 
